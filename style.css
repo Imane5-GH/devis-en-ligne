@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#headercontainer{
+    border: 4px solid black;    
+}
+
+#container1{
+    width: 1520px;
+    height: 728px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#container1 p{
+    font-size: 80px;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
+#container1 img{
+    width: 45%;
+	height: 70%;
+}
+
+
+
+
+#container2{
+    border: 4px solid black;
+    background: rgba(146, 231, 242, 0.5);
+    width: 1550px;
+    height: 760px;
+}
+
+#container2 .nom{
+    border: 4px solid black;
+    width: 427px;
+    height: 50px;   
+    background: #FDFEFF;
+    border-radius: 10px;
+}
+
+#container2 .prenom{
+    border: 4px solid black;
+    width: 427px;
+    height: 50px;   
+    background: #FDFEFF;
+    border-radius: 10px;
+}
+
+#container2 .telephone{
+    border: 4px solid black;
+    width: 427px;
+    height: 50px;   
+    background: #FDFEFF;
+    border-radius: 10px;
+}
+
+#container2 .adresse{
+    border: 4px solid black;
+    width: 427px;
+    height: 50px;   
+    background: #FDFEFF;
+    border-radius: 10px;
+}
+
+#container2 .societe{
+    border: 4px solid black;
+    width: 427px;
+    height: 50px;   
+    background: #FDFEFF;
+    border-radius: 10px;
+}
+
+#container2 .postal{
+    border: 4px solid black;
+    width: 427px;
+    height: 50px;   
+    background: #FDFEFF;
+    border-radius: 10px;
+}
+
+#container2 .message{
+    border: 4px solid black;
+    width: 815px;
+    height: 250px;  
+    background: #FDFEFF;
+    border-radius: 10px;
+}
+
+#container2 .envoyer{
+    border: 4px solid black;
+    width: 158px;
+    height: 43px; 
+    background: #68C3F0;
+    border-radius: 7px;
+}
+
+
+
+#container3{
+    background: #A5E0FD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1520px;
+    height: 328px;
+}
+
+#container3 p{
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 25%;
+	height: 50%;
+}
+
+
+
+
+
+
+@media all and (max-width:480px){
+
+    #headercontainer{
+        display: none;   
+    }
+
+
+    #container1{
+        width: 430px;
+        height: 328px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    #container1 p{
+        font-size: 30px;
+        width: 55%;
+        height: 15%;
+        text-align: center;
+    }
+    
+    #container1 img{
+        width: 60%;
+        height: 60%;
+    }
+
+
+
+
+
+    #container2{
+        width: 430px;
+        height: 730px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #container2 .nom{
+        width: 270px;
+        height: 40px;   
+    }
+    
+    #container2 .prenom{
+        width: 270px;
+        height: 40px;  
+    }
+    
+    #container2 .telephone{
+        width: 270px;
+        height: 40px;   
+    }
+    
+    #container2 .adresse{
+        width: 270px;
+        height: 40px;    
+    }
+    
+    #container2 .societe{
+        width: 270px;
+        height: 40px;   
+    }
+    
+    #container2 .postal{
+        width: 270px;
+        height: 40px;   
+    }
+
+    #container2 .message{
+        width: 415px;
+        height: 150px;  
+    }
+
+    #container2 .envoyer{
+        width: 110px;
+        height: 30px; 
+    }
+
+
+
+
+    #container3{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 438px;
+        height: 500px;
+    }
+    
+    #container3 p{
+        font-size: 15px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        color: #000000;
+        width: 60%;
+        height: 25%;
+    }
+}
